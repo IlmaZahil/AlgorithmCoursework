@@ -38,12 +38,12 @@ leaving. The source has no entering edges but may have flow going out; in other 
 generate flow. The target may have flow coming in but has no edges leaving it. 
 The value of a flow 𝒇 is defined to be the amount of flow generated at the source, which is 
 the sum ∑𝒆∈𝒐𝒖𝒕(𝒔) 𝒇(𝒆). The goal of this coursework is to implement an algorithm for
-maximising this value, i.e. finding a maximum generated flow from s to t.</p><br/>
+maximising this value, i.e. finding a maximum generated flow from s to t.<br/>
 
 
 <h3>Tasks to be performed:</h3><br/>
 
-<p>Task 1 (10 marks). Set up a project (Java or C++) as you did for the tutorial exercises. <br/>
+Task 1 (10 marks). Set up a project (Java or C++) as you did for the tutorial exercises. <br/>
 
 Task 2 (20 marks). Choose and implement a data structure which can represent a flow 
 network. Assume that all capacities are integers, and you therefore only need to consider 
